@@ -4,9 +4,8 @@ resolver: lts-5.11
 # packages: []
 packages:
 - '.'
-  
+
 extra-deps:
-- 'unique-0'
 - accelerate-0.15.1.0
 - accelerate-cuda-0.15.1.1
 - accelerate-examples-0.15.1.0
@@ -19,6 +18,7 @@ extra-deps:
 - cufft-0.1.2.2
 - exception-mtl-0.4
 - symbol-0.2.4
+- criterion-1.1.0.0
 
 - gloss-accelerate-1.9.0.0
 - gloss-raster-accelerate-1.9.0.0
