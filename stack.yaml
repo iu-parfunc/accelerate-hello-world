@@ -40,6 +40,19 @@ flags:
     bounds-checks: true
     debug: false
     internal-checks: false
+  accelerate-examples:
+    canny: false
+    crystal: true
+    fft: true
+    fluid: true
+    hashcat: true
+    kmeans: true
+    mandelbrot: true
+    nbody: true
+    pagerank: true
+    ray: true
+    smoothelife: true
+    smvm: true
 
 # Extra package databases containing global packages
 extra-package-dbs: []
